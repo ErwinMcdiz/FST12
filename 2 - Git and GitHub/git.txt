@@ -9,3 +9,27 @@ git config --global user.name "username"
 git config --global user.email "email"
 git config user.name 
 git config user.email
+
+# Check the Status
+git Status
+
+# Adding file to staging area
+git add "file/folder name"
+
+# Add files to staging area
+git add .
+
+# Commit files
+git commit -m "description of your commit"
+
+# Legends for Git
+U - Untracked
+A - Added
+M - Modified
+D - Deleted
+
+# Check commit history 
+git log 
+
+# Check commit history (summarized)
+git log --oneline
